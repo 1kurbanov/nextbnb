@@ -1,0 +1,37 @@
+{
+  "name": "nextbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.1.0",
+    "date-fns": "^2.16.1",
+    "easy-peasy": "^4.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^10.0.5",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.5.1",
+    "randomstring": "^1.1.5",
+    "react": "^17.0.1",
+    "react-day-picker": "^7.4.8",
+    "react-dom": "^17.0.1",
+    "react-pell": "^0.4.0",
+    "sanitize-html": "^2.3.2",
+    "sequelize": "^6.5.0"
+  }
+}
